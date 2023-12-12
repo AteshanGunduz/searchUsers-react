@@ -1,0 +1,147 @@
+.bigbox{
+  display: flex;
+  justify-content: center;
+}
+
+h2{
+  letter-spacing: 0.2rem;
+}
+
+h3{
+  font-size: 1.1rem;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+p{
+  font-style: italic;
+}
+
+button{
+  height: 2rem;
+  border: none;
+  padding: 0.5rem 1.3rem;
+  border-radius: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  background: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 0 1rem;
+}
+
+button:hover{
+  scale: 1.04;
+  background: lightblue;
+ 
+}
+
+.container{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 2rem;
+}
+
+.quote-container{
+  width: 80%;
+  margin: 2rem 0;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 1rem;
+  padding: 1.5rem 1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.user-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 2rem;
+  }
+
+.user-container a{
+display: flex;
+width: 20rem;
+margin-top: 1rem;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+cursor: pointer;
+text-decoration: none;
+}
+
+.user-container div{
+   display: flex;
+  }
+
+  .user-container button{
+    margin-top: 2.7rem;
+   }
+
+.user-container a:hover{
+  scale: 1.1;
+  }
+
+.user-container img{
+  width: 100px;
+}
+
+.user-container h5{
+ padding-left: 1rem;
+}
+
+
+@media (max-width: 650px){
+  .user-container a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    margin-top: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    text-decoration: none;
+    }
+
+    .user-container div{
+      flex-direction: column;
+      align-items: center;
+     }
+     .user-container button{
+      margin: 0.5rem 0;
+      padding: 0;
+      width: 1.3rem;
+      height: 1.3rem;
+     }
+
+    .user-container img{
+      border-radius: 50%;
+      padding-top: 0.5rem;
+    }
+
+    .user-container h5{
+      padding-left: 0;
+     }
+     
+     button{
+      font-size: 0.7rem;
+     }
+
+     h2{
+      text-align: center;
+      font-size: 1.4rem;
+     }
+    
+     .input-container{
+      height: 5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+     }
+}
